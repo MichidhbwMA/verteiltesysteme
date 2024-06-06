@@ -37,4 +37,4 @@ if __name__ == "__main__":
     client = PubSubClient()
     threading.Thread(target=client.receive).start()
     client.subscribe("example_topic")
-    client.publish("example_topic", "Hello")
+    client.publish("example_topic", "R is cool")
