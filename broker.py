@@ -3,7 +3,7 @@ import struct
 import threading
 
 class MessageBroker:
-    def __init__(self, host='localhost', port=12345):
+    def __init__(self, host='localhost', port=42069):
         self.host = host
         self.port = port
         self.subscriptions = {}
