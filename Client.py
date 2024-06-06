@@ -3,7 +3,7 @@ import struct
 import threading
 
 class PubSubClient:
-    def __init__(self, broker_host='localhost', broker_port=12345):
+    def __init__(self, broker_host='localhost', broker_port=42069):
         self.broker_host = broker_host
         self.broker_port = broker_port
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
